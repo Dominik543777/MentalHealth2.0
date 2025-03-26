@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Důležitost duševního zdraví</title>
+    <link rel="website icon"
+    type="png" href="/tlacitka/images/srdce.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/tlacitka/spanek.html">
+    <link rel="stylesheet" href="/tlacitka/meditace.html">
+    <link rel="stylesheet" href="/tlacitka/konicky.html">
+    <link rel="stylesheet" href="/tlacitka/komunikace.html">
+    <link rel="stylesheet" href="/tlacitka/pohyb.html">
+    <link rel="stylesheet" href="/tlacitka/strava.html">
+    <link rel="stylesheet" href="TlacitkaStyles.css">
+    <style>
+    </style>
+    
+</head>
+<body>
+   
+
+    <div class="container">
+        <h1> Duševní zdraví je důležité </h1>
+        <p class="quote">"Vaše duševní zdraví je stejně důležité jako to fyzické."</p>
+        
+        <h2> Jak pečovat o svou mysl</h2>
+        <div class="tips">
+            <a href="/tlacitka/meditace.html"><div class="tip petr " >
+            <strong>Meditace & mindfulness</strong>  
+             Zklidněte mysl a soustřeďte se na přítomnost.
+            </div></a>
+            <a href="/tlacitka/pohyb.html"><div class="tip">
+            <strong>Pohyb na čerstvém vzduchu</strong>  
+             Procházka v přírodě vám může zlepšit náladu.
+            </div></a>
+            <a href="/tlacitka/strava.html"><div class="tip">
+            <strong>Vyvážená strava</strong>  
+             Zdravé jídlo ovlivňuje i psychiku.
+            </div></a>
+            <a href="/tlacitka/spanek.html"><div class="tip">
+            <strong>Dostatek spánku</strong>  
+             7-9 hodin kvalitního spánku je klíč ke zdraví.
+            </div></a>
+            <a href="/tlacitka/komunikace.html"><div class="tip">
+            <strong>Otevřená komunikace</strong>  
+             Mluvte o svých pocitech, sdílení pomáhá.
+            </div></a>
+            <a href="tlacitka/konicky.html"> <div class="tip">
+            <strong>Najděte si kreativní koníček</strong>  
+             Kreslení, hudba nebo psaní vám pomohou se vyjádřit.
+            </div></a> 
+        </div>
+        <div class="contact">
+            <h2>Potřebujete pomoc?</h2>
+            <p>Pokud se necítíte dobře, nebojte se požádat o podporu.</p>
+            <p><a href="https://dusevni-zdravi.cz/">Navštivte duševní-zdravi.cz</a></p>
+        </div>
+    </div>
+    <div class="confetti">
+        <button class="fire-btn">🎉</button>
+      </div>
+  
+      <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+  
+      <script>
+        const fireBtn = document.querySelector(".fire-btn");
+  
+        fireBtn.addEventListener("click", () => {
+          confetti({
+            particleCount: 300,
+            spread: 90,
+            origin: { x: 1, y: 0.9 },
+          });
+  
+          confetti({
+            particleCount: 300,
+            spread: 90,
+            origin: { x: 0, y: 0.9 },
+          });
+        });
+      </script>
+</body>
+</html>
