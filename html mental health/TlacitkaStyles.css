@@ -1,8 +1,14 @@
 body {
-    background-image: url('tlacitka/images/Backround.png.png'); 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(135deg, #6a11cb, #2575fc, #ffcc00);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    
 }
 .text-box {
     background: rgba(0, 0, 0, 0.7); 
